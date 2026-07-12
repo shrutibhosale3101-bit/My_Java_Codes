@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        String name = "Alice";
+        int age = 25;
+        double gpa = 3.8;
+        boolean isStudent = true;
+
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(gpa);
+        System.out.println(isStudent);
+    }
+}
