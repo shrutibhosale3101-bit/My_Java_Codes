@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter number1:");
+        int number1 = sc.nextInt();
+
+        System.out.println("Enter number2:");
+        int number2 = sc.nextInt();
+
+        int sum = number1 + number2;
+        int diff = number1 - number2;
+        int multiplication = number1 * number2;
+        int quotient = number1 / number2;   // integer division
+
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + diff);
+        System.out.println("Multiplication: " + multiplication);
+        System.out.println("Quotient: " + quotient);
+
+        sc.close();
+    }
+}
