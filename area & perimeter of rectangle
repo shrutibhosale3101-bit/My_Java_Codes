@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the length of rectangle");
+        double length = sc.nextDouble();
+        System.out.println("enter the breath of rectangle");
+        double breath = sc.nextDouble();
+        double  area = length * breath;
+        System.out.println("enter the area of the rectangle is:"+ area );
+        double perimeter = 2*(length + breath);
+        System.out.println("enter the perimeter of the rectangle is:"+perimeter);
+        sc.close();
+
+    }
+}
